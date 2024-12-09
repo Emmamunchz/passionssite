@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passionssite</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fonts -->
+    <!-- - Abril Fatface -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DynaPuff:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Mono:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <!-- - Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Mono:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <!-- - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DynaPuff:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Mono:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon1/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon1/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon1/favicon-16x16.png" />
+    <link rel="manifest" href="favicon1/site.webmanifest" />
+  </head>
+  <!-- Forside -->
+  <body>
+    <header>
+      <div class="header">
+        <span class="logo">S</span>
+        <span class="name">Oliver Dalbæk</span>
+        <button id="menuButton">Menu</button>
+      </div>
+      <nav id="dropdownMenu">
+        <ul>
+          <li><a href="#introduction">Introduktion</a></li>
+          <li><a href="#gallery">Galleri</a></li>
+          <li><a href="#video">Video</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- gradient med noise -->
+    <section class="hero">
+      <div class="gun">
+        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+        <dotlottie-player src="https://lottie.host/48455748-8d14-4045-b8ff-79d8973031a2/EPydax4Siy.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+      </div>
+      <h1>SLIVS TATTS</h1>
+      <div class="pilned"></div>
+    </section>
+
+    <section class="indhold">
+      <div class="afsnit1">
+        <section id="introduction">
+          <h2>Oliver Dalbæk</h2>
+          <h3>Tatovør</h3>
+          <p>Oliver har siden han var helt lille elsket at tegne, og han er utrolig dygtig. Hans passion har været drivkraften bag hans konstante stræben efter at dygtiggøre sig. Senere begyndte han at male, spille musik og går nu på Multimediedesign på KEA. Han er en ekstremt kreativ og dygtig person, der besidder en karisma og autoritet, som får folk til at lytte nysgerrigt. Han har tatoveret i mange år og er en af de bedste, jeg kender i byen. Hans design er helt unikt, skitsetegnet og vildt. Han skaber sit eget univers med inspiration fra gaden og lyrikken.</p>
+        </section>
+      </div>
+
+      <!-- billede 1 m tekst -->
+      <div class="tekst">
+        <img src="billeder/billede1.webp" alt="tegninger" />
+        <div class="overlay-text">Unikke flashes</div>
+      </div>
+    </section>
+
+    <section class="afsnit2">
+      <!-- h3 -->
+      <h3>"Det er min måde at bidrage til verden på, og det er fucking fedt at kunne gøre det på min egen måde!"</h3>
+      <!-- billede 2,3,4 og 5 -->
+      <section id="gallery">
+        <div class="grid1-1">
+          <img src="billeder/billede2.webp" alt="potræt" class="portrait" />
+          <img src="billeder/billede3.webp" alt="sliv" class="sliv" />
+          <img src="billeder/billede4.webp" alt="tats" class="tats1" />
+          <img src="billeder/billede5.webp" alt="tats" class="tats2" />
+        </div>
+      </section>
+
+      <!-- h3 -->
+      <h3>Se videoen nedenunder, og find ud af mere omkring Olivers passion</h3>
+      <!-- video og video?? -->
+      <section id="video">
+        <div class="container">
+          <div class="video">
+            <video src="billeder/SlivsTatts.mp4" controls></video>
+          </div>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IpH10PlIOpE?si=WBY3AEGJg8du6yI_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer class="footer">
+      <h3>Proces og dokumentation</h3>
+      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1)" width="800" height="450" src="https://embed.figma.com/design/5ZsdCZNpWc4L0ynlhkIEgb/styletile-og-Wireframes-til-passionssite?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+      <p><em>Passionssite om Oliver Dalbæk, interviwet af Sebastian og Emma Sofie.</em></p>
+      <p><em>Site lavet af Emma Sofie.</em></p>
+      <a href="index.html" class="pilop">⬆</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
